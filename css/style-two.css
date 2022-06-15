@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: blue;
+}
+
+.header-general {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-general div a {
+    padding: 0 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero {
+    margin-bottom: 88px;
+}
+
+.hero-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    color: #252B42;
+}
+
+.hero-general {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-general-two-h {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+.hero-general-two {
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+
+.hero-general-two-h h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #252B42;
+    margin-bottom: 10px;
+}
+
+.hero-general-two-h h2 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #252B42;
+}
+
+.hero-general-two-h h3 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #252B42;
+}
+
+.hero-general-two-h h4 {
+    margin-bottom: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #252B42;
+}
+
+.hero-general-two-h h4 span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #252B42;
+}
+
+.hero-general-two p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.hero-text-two {
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#noruz {
+    margin-bottom: 88px;
+}
+
+#aii {
+    margin-bottom: 89px;
+}
+
+#footer {
+    background: url("../img/fon2.png") no-repeat center/cover;
+    min-height: 35vh;
+}
+
+.footer-general {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-general-one div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-general-one div {
+    color: white;
+    padding: 10px 10px;
+}
+
+.footer-general-three div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-general-three div div {
+    padding: 10px 10px;
+    color: white;
+}
+
+.footer-general a {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-general-three h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}

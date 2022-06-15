@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    background: blue;
+}
+
+.header-general {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-general div a {
+    padding: 0 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero {
+    margin-bottom: 88px;
+}
+
+.hero-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    color: #252B42;
+}
+
+.hero-gen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-gen button {
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 401px;
+    height: 74px;
+    background: #2435A1;
+    border-radius: 16px;
+    transition: .4s;
+}
+
+.hero-gen button:hover{
+    background: #000;
+    color: blue;
+    transform: scale(1.1);
+}
+.hero-gen-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-gen-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#footer {
+    background: url("../img/fon2.png") no-repeat center/cover;
+    min-height: 35vh;
+}
+
+.footer-general {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-general-one div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-general-one div {
+    color: white;
+    padding: 10px 10px;
+}
+
+.footer-general-three div {
+    padding-top: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.footer-general-three div div {
+    padding: 10px 10px;
+    color: white;
+}
+
+.footer-general a {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-general-three h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
